@@ -36,6 +36,7 @@ const CreateNailMakeup = () => {
           type="text"
           id="name"
           name="name"
+          required={true}
           value={newNailMakeup.name}
           onChange={handleInputChange}
         />
